@@ -1,0 +1,35 @@
+/* Header.css */
+
+.header-container {
+	background: #ffffff;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	font-family: 'Roboto Mono';
+	height: 80px;
+      }
+      
+      .logo {
+	width: 50px;
+	margin-right: 10px;
+      }
+      
+      .date-time {
+	font-size: 14px;
+	flex: 1;
+      }
+      
+      .contact-button {
+	color: black;
+	border: 1px solid black;
+	transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+	width: fit-content;
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.1);
+      }
+      
+      .contact-button:hover {
+	background-color: green;
+	color: white;
+	border-color: white;
+      }
