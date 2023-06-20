@@ -32,6 +32,20 @@ function Markers() {
       description: 'Home to the iconic Mona Lisa painting.',
       iconUrl: 'https://cdn-icons-png.flaticon.com/512/2849/2849907.png',
     },
+	  {
+	    position: [33.89418366422096, 35.515462526662375], // St. Nicholas Stairs coordinates
+	    name: 'Marker 1',
+	    subHeader: '📍 St. Nicholas Stairs',
+	    description: 'Something happed here at certain time.',
+	    iconUrl: 'https://cdn-icons-png.flaticon.com/512/2849/2849907.png',
+	  },
+	  {
+	    position: [33.87685565423403, 35.51470581317099], // Badaro coordinates
+	    name: 'Marker 2',
+	    subHeader: '📍Badaro Urban Market',
+	    description: 'Something happened here at certain time',
+	    iconUrl:    'https://cdn-icons-png.flaticon.com/512/2849/2849907.png',
+	  },
     // Add more marker data as needed
   ];
 
